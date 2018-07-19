@@ -7,9 +7,6 @@ This extension will take a snapshot of current sheet based on field selection an
 * [Usage](#usage)
 * [Author](#author)
 
-#Screenshot
-![pdf](https://user-images.githubusercontent.com/18327523/42938875-657e0396-8b71-11e8-9eca-a6bca7ee8932.png)  
-
 
 # Installation
 
