@@ -1,5 +1,5 @@
 # AeS Print as PDF - Multiple files based on field values
-This extension loops through the field and prints the current sheet as a PDF file for each field value. 
+This extension loops through the field values one by one as a selected value, and prints the current sheet as a PDF file. 
 
 ## Table of Contents
 
@@ -26,14 +26,12 @@ This extension loops through the field and prints the current sheet as a PDF fil
 This extension works only through browser and not works with Qlik Sense Desktop client. 
 To work with Desktop client, Launch the Desktop client and access the hub through browser http://localhost:4848/hub
 
-Open the Qlik Sense App
-Drag and Drop the extension to a desired location in the sheet
-Assign the field name to the extension
-Specify the output file name
-Save the application
-Upon clicking the button, the extension will read the field value one by one as a selected value, and download the current sheet as a PDFs
-
-
+1. Open the Qlik Sense App
+2. Drag and Drop the extension to a desired location in the sheet
+3. Assign the field name to the extension
+4. Specify the output file name
+5. Save the application
+6. Upon clicking the button, the extension will read the field value one by one as a selected value, and download the current sheet as a PDF. 
 	
 # Author
 
