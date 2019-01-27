@@ -1,5 +1,5 @@
-# AeS Print as PDF
-This extension will take a snapshot of current sheet based on field selection and print as multiple PDF file
+# AeS Print as PDF - Multiple files based on field values
+This extension loops through the field and prints the current sheet as a PDF file for each field value. 
 
 ## Table of Contents
 
@@ -23,27 +23,15 @@ This extension will take a snapshot of current sheet based on field selection an
 
 #Usage
 
-Note: This extension does not print in desktop application. So use single configurator URL or HUB to print the current sheet as multiple PDF file based on field selection.
+This extension works only through browser and not works with Qlik Sense Desktop client. 
+To work with Desktop client, Launch the Desktop client and access the hub through browser http://localhost:4848/hub
 
-1. Drag and drop the visualization extension into a Qlik Sense sheet.
-
-2. Enter the valid field name to select the values automatically.
-
-3. You can change the output file name without extension as you want.
-
-4. Save and reload the application. 
-
-5. Open the browser and type the URL http://localhost:4848/dev-hub/single-configurator 
-
-6. Select an app(qvf) which you have the extension(AeS Sheet as PDF File).
-
-7. Select the sheet which you want to print as PDF file.
-
-8. Copy the single configurator URL and open it in another tab.
-
-9. Click the "PDF Download" image button.
-
-10.You entered field values will be select one by one and current sheet will be exported as multiple PDF file.
+Open the Qlik Sense App
+Drag and Drop the extension to a desired location in the sheet
+Assign the field name to the extension
+Specify the output file name
+Save the application
+Upon clicking the button, the extension will read the field value one by one as a selected value, and download the current sheet as a PDFs
 
 
 	
@@ -51,6 +39,9 @@ Note: This extension does not print in desktop application. So use single config
 
 ![aes logo transperant - small](https://cloud.githubusercontent.com/assets/18327523/14427159/d6e64e9c-0010-11e6-9532-d4682e9ea0a0.png)
 
-**Assure eServices Inc., **
+Irfan Kaleel
+
+Assure eServices - Qlik Web Team
+
 
 (http://github.com/Assureeservices)
